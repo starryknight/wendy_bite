@@ -1,16 +1,16 @@
 *{
-   /* border:solid; */
     padding: 10px;
     color:white;
     text-shadow: 0 0 2px black;
+
 }
 body{
     background: rgb(70, 70, 70);
     display: grid;
     grid-auto-columns: 1fr 1fr;
-    padding: 10px;
-    
+    padding: 10px;   
 }
+
 header{
     border-bottom:solid 5px silver;
     border-bottom-style: ridge;
@@ -21,18 +21,19 @@ header{
 
 h1{
     grid-column-start:span 2;
-    font-family: 'Indie Flower', cursive;
-    
+    font-family: 'Indie Flower', cursive;   
 }
+
 nav{
-    grid-column-start:span 2;
-    
+    grid-column-start:span 2;   
 }
+/* styles the anchors, but will substitute the one on the bottom for icons */
 a{
     color:green;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* this is an anchor with unique features */
 .active{
 text-decoration: none;
 color: white;
@@ -59,7 +60,7 @@ p{
     grid-auto-columns: 1fr 1fr;
 }
 
-#innerbox{
+#innerbox{ /*This is the part containing all betty's details*/
     margin:100px;
     border-style: ridge;
     border-color:silver;
@@ -92,7 +93,7 @@ footer{
     background-size:cover;
     
 }
-#icons4{
+#icons4{ /*substituted for text as a challenge to myself, hope it's ok*/
     background: url(icon2.png) 100%;
     background-size:cover;
     
